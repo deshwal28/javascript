@@ -23,3 +23,21 @@ const myFunction=function(){
     console.log("Hello World");
 }
 console.log(typeof myFunction);
+
+//****************** */
+//stack(Primitive),Heap(Non-Primitive)
+
+let myYoutubename="codecraft"
+let anothername=myYoutubename
+anothername="MasculineMode"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+    email: "user@google.com",
+    upi:"user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "deshwal@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
