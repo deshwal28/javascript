@@ -1,0 +1,56 @@
+//if statement 
+/*const isUserloggedIn = true
+const temperature = 41
+if(temperature ==50){
+    console.log("less than 50");
+}else{
+console.log("temperature is greater than 50")
+}*/
+//=== (it check the type)
+//!==(check negative side)
+//if(2==="2"){
+   // console.log("executed");
+//}
+/*const score = 200
+if(score>100){
+    const power = "fly"
+    console.log(`User power: ${power}`);
+}*/
+//const balance = 1000
+//if(balance>500)console.log("test");
+/*if(balance<500){
+    console.log("less than 500");
+}else if(balance <750){
+    console.log("less than 750");
+}else {
+    console.log("less than 1200")
+}*/
+const userLoggedIn = true
+const debitcard = true
+const loggedInFromGoogle=false
+const loggedInFromEmail =true 
+if(userLoggedIn && debitcard){
+    console.log("Alow to buy course");
+}
+if(loggedInFromGoogle || loggedInFromEmail){
+    console.log("user Logged In");
+}
+//switch case 
+ const month = 3
+ switch (month){
+    case 1:
+        console.log("january");
+        break;
+    case 2:
+        console.log("feb");
+        break;
+    case 3:
+        console.log("march");
+        break;
+    case 4:
+        console.log("april");
+        break;
+    default:
+        console.log("default case match ");
+        break ; 
+ }
